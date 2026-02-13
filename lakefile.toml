@@ -8,3 +8,8 @@ name = "LeanMyFirstTest"
 [[lean_exe]]
 name = "lean_my_first_test"
 root = "Main"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.27.0"
